@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+ <!--
+    Class:   ITSE-1374.WW1: Mobile Web
+    Project: Lab 5 - MobileApp
+    Author:  Bruno Leandro da Silva
+    Date:    04/21/2018       
+   -->
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+        <link rel="icon" type="image/ico" href="img/BrunoDaSilvalog.ico">        
+        <link rel="stylesheet" href="themes/myTheme.css" />     
+        <link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+        <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+        <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"/>
+        <title>Call Of Duty</title>
+    </head>
+
+
+    <body>
+        <script src="cordova.js"></script>
+
+ <!--
+   FanPage Starts Here      
+   -->
+    <div data-role="page" id="page1" data-theme="d">
+       <div data-role="header"  class="title">  
+         <h1>COD - FanApp</h1>
+           
+       </div>
+     
+       <div data-role="main" class="ui-content">
+          <div data-role="navbar">
+            <ul>
+                <li><a href="#page1" data-transition="pop"><span style="color:#1d88b6">FanApp</span></a></li>
+                <li><a href="#page2" data-transition="pop">Sold</a> </li>
+                <li><a href="#page3" data-transition="pop">Game</a></li>
+                <li><a href="#page4" data-transition="pop">Events</a></li>
+              </ul>
+        </div>
+
+        <h1>Call Of Duty</h1>
+        <img src ="img/CODHOME.jpg" alt="About Call of Duty"> 
+        <p>Call of Duty or Simply COD, is a first-person shooter video game franchise. The series began on Microsoft Windows, 
+        and later expanded to consoles and handhelds.</p> 
+        <p> Several spin-off games have been released. The earlier games in the series are set primarily in World War II,
+        but later games like Call of Duty 4: Modern Warfare are set in modern times or in futuristic settings.</p>
+        <p>The most recently announced game, Call of Duty: WWII, was released on November 3, 2018 and return the 
+        series to its mid-20th century roots. <a href="https://www.youtube.com/watch?v=D4Q_XYVescc&t=13s">I Dare You to Watch the Trailer!</a> </p>
+     </div>
+
+      <!--
+   FanPage Footer     
+   -->
+     
+     <div data-role="footer">
+        <h2>&copy; PacDev MobileApp</h2>
+     </div>
+   </div>
+
+   <!--
+   Copies Sold Page Starts Here      
+   -->
+   <div data-role="page" id="page2" data-theme="d">
+        <div data-role="header">
+            <h1>COD - FanApp</h1>
+        </div>
+      
+        <div data-role="main" class="ui-content">
+            <div data-role="navbar">
+                      <ul>
+                        <li><a href="#page1" data-transition="pop"><span style="color:#1d88b6">FanApp</span></a></li>
+                        <li><a href="#page2" data-transition="pop">Sold</a> </li>
+                        <li><a href="#page3" data-transition="pop">Game</a></li>
+                        <li><a href="#page4" data-transition="pop">Events</a></li>
+                      </ul>
+            </div>
+         <h1>Sold Copies</h1>
+         <img src ="img/CODWW3.jpg" alt="Call Of Duty Modern Warfare 3"> 
+         <p>The Call of Duty games are published and owned by Activision. While Infinity Ward is still a developer,
+        Treyarch and Sledgehammer Games also develop several of the titles with the release of the studios' games 
+        alternating with each other.</p>
+         <p>Some games have been developed by Gray Matter Interactive, Nokia, Exakt Entertainment,
+        Spark Unlimited, Amaze Entertainment, n-Space, Aspyr, Rebellion Developments, Ideaworks Game Studio, and nStigate Games.
+        The games use a variety of engines, including the id Tech 3, the Treyarch NGL, and the IW engine.</p>
+         <p>As of February 2016, the Call of Duty series has sold over 250 million copies.
+        Sales of all Call of Duty games topped <span style="color:#D6B23A">US$15 billion</span>.</p>
+         <p> As of the measured period, the Modern Warfare 3 edition of COD was the highest-seller
+        in the franchise, with <span style="color:#D6B23A">30.67 million </span>units sold worldwide since its release in 2011</p>
+
+        <h2>Top 5 Units Sold World Wide</h2>
+        <ul data-role="listview" data-count-theme="b" data-inset="true">
+                <li><a href="https://www.statista.com/statistics/321374/global-all-time-unit-sales-call-of-duty-games/">Modern Warfare 3<span class="ui-li-count" style="background-color: #3388cc" >30.67 Million</span></a></li>
+                <li><a href="https://www.statista.com/statistics/321374/global-all-time-unit-sales-call-of-duty-games/">Black Ops <span class="ui-li-count" style="background-color: #3388cc">30.37 Million</span></a></li>
+                <li><a href="https://www.statista.com/statistics/321374/global-all-time-unit-sales-call-of-duty-games/">Black Ops II <span class="ui-li-count" style="background-color: #3388cc">29.47 Million</span></a></li>
+                <li><a href="https://www.statista.com/statistics/321374/global-all-time-unit-sales-call-of-duty-games/">Ghosts<span class="ui-li-count" style="background-color: #3388cc">27.52 Million</span></a></li>
+                <li><a href="https://www.statista.com/statistics/321374/global-all-time-unit-sales-call-of-duty-games/">Black Ops III <span class="ui-li-count" style="background-color: #3388cc">26.37 Million</span></a></li>
+            </ul>
+            <p><a href="https://www.statista.com/statistics/321374/global-all-time-unit-sales-call-of-duty-games/">The complete list is Available.</a></p>
+
+    </div>
+      
+     <!--
+   Copies Sold Page Footer     
+   -->
+      <div data-role="footer">
+        <h2>&copy; PacDev MobileApp</h2>
+      </div>
+    </div>
+
+     <!--
+   Sold Copies Page Starts Here      
+   -->
+
+    <div data-role="page" id="page3" data-theme="d">
+            <div data-role="header">
+                <h1>COD - FanApp</h1>
+            </div>
+          
+            <div data-role="main" class="ui-content">
+               <div data-role="navbar">
+                 <ul>
+                        <li><a href="#page1" data-transition="pop"><span style="color:#1d88b6">FanApp</span></a></li>
+                        <li><a href="#page2" data-transition="pop">Sold</a> </li>
+                        <li><a href="#page3" data-transition="pop">Game</a></li>
+                        <li><a href="#page4" data-transition="pop">Events</a></li>
+                 </ul>
+               </div>
+             <h1>COD- World War II</h1>
+             <img src ="img/COD2.jpg" alt="New Game released COD-World War II"> 
+             <p>The game is set in the European theatre, and is centered around a squad in the 1st Infantry Division,
+            following their battles on the Western Front; the multiplayer expands to different fronts not seen in the campaign.</p>
+             <p>Upon release, the game received positive reviews from critics, with many appreciating the return to the franchise's 
+            World War II roots.</p>
+            <p>Receiving reviews like this one posted on Metacritic: <span style="color:#D6B23A"><i>Call of Duty WW2 is the best Call of Duty in years. 
+            Bombastic story, killer grounded multiplayer, and a dark and scary Zombies make up one of the most complete and enjoyable Call of Duty experiences in years.</i></span>
+            <p><a href="http://www.metacritic.com/game/playstation-4/call-of-duty-wwii/critic-reviews">Additional Reviews Avaialble</a>.</p>          
+
+          </div>          
+          
+    <!--
+        Sold Copies Footer      
+   -->
+          <div data-role="footer">
+              <h2>&copy; PacDev MobileApp</h2>
+          </div>
+        </div>
+
+ <!--
+   Events Page Starts Here      
+   -->
+        <div data-role="page" id="page4" data-theme="d">
+            <div data-role="header">
+                <h1>COD - FanApp</h1>
+            </div>
+          
+            <div data-role="main" class="ui-content">
+               <div data-role="navbar">
+                 <ul>
+                        <li><a href="#page1" data-transition="pop"><span style="color:#1d88b6">FanApp</span></a></li>
+                        <li><a href="#page2" data-transition="pop">Sold</a> </li>
+                        <li><a href="#page3" data-transition="pop">Game</a></li>
+                        <li><a href="#page4" data-transition="pop">Events</a></li>
+                 </ul>
+               </div>
+               </div>
+             <h1>Events</h1>
+             <img src ="img/CODEVENTS.png" alt="COD World League"> 
+             <p>The 2018 Season of the Call of Duty World League kicked off in July with MLG Vegas. Since then, 
+            Activision and tournament partners have announced additional events for the 2018 CWL Season for Infinite Warfare.</p>            
+            <p><a href="https://www.callofduty.com/esports/events">Additional Events Information</a>.</p>
+            
+            <h2>World League <span style="color:#D6B23A">(WL)</span> Events: </h2>
+        <ul data-role="listview" data-count-theme="b" data-inset="true">
+                <li><a href="WLF">WL Qualifiers <span class="ui-li-count" style="background-color: #3388cc" >March 26</span></a></li>
+                <li><a href="WLF">WL Championship <span class="ui-li-count" style="background-color: #3388cc">August 15</span></a></li>
+                <li><a href="WLF">WL Championship Final <span class="ui-li-count" style="background-color: #3388cc">December 6</span></a></li>                
+            </ul>      
+            
+            <!--
+                Grand Final PinPoint Location     
+            -->
+
+            <h2 id="WLF"><span style="color:rgb(243, 206, 83)">World League Final</span> </h2>
+            <div>
+                <p><span style="color:rgb(196, 194, 189)"><b>Location:</b> Mandalay Bay Resort and Casino</span></p>
+                <p><span style="color:rgb(196, 194, 189)"><b>Address:</b> 3950 Las Vegas Blvd. South Las Vegas, NV 89119, US</span></p>
+            </div>
+            
+
+                <style>
+                    #map{
+                        width: 300px;
+                        height: 300px;
+                        align-content: center;
+                        margin: auto;
+                        width: 50%;
+                        border: 3px solid rgb(243, 206, 83);
+                        padding: 10px;
+                    }
+
+                </style>
+
+                <div id="map"></div>
+                    <script>
+      
+                        function initMap() {
+                            var myLatLng = {lat: 36.090861, lng: -115.175027};
+
+                            var map = new google.maps.Map(document.getElementById('map'), {
+                                zoom: 5,
+                                center: myLatLng
+                                });
+
+                            var marker = new google.maps.Marker({
+                                position: myLatLng,
+                                map: map,
+                                title: 'Recife - Brazil'
+                                });
+                        }
+                    </script>
+                <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC9L106whzCo2tCuZGMeIhzgTR58ybusSI&callback=initMap"
+                        async defer></script>
+          
+            <BR>
+
+                <!--
+                Events Footer     
+            -->
+          <div data-role="footer">
+              <h2>&copy; PacDev MobileApp</h2>
+          </div>
+        </div>
+    </body>
+</html>
+

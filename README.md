@@ -1,6 +1,14 @@
-# Call-Of-Duty-FanMobileApp
-This is a fictional Call Of Duty FanMobileApp created with PhoneGap using HTML, CSS, JavaScript and Jquery custom Theme. 
+# A Blank PhoneGap App
 
-LAB completion for ITSE-1374.WW1: Mobile Web, AAS – E-Business Development
-C# .NET Development Track at Collin College.
+## Usage
+
+### PhoneGap CLI
+
+    $ phonegap create my-app --template blank
+
+### Desktop
+
+In your browser, open the file:
+
+    /www/index.html
 
