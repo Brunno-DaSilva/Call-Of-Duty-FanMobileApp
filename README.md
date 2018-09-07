@@ -1,14 +1,2 @@
-# A Blank PhoneGap App
-
-## Usage
-
-### PhoneGap CLI
-
-    $ phonegap create my-app --template blank
-
-### Desktop
-
-In your browser, open the file:
-
-    /www/index.html
+Responsive Mobile Web Version of a Call of Duty fan page App using mainly jQuery, JavaScript, HTML5, CSS, and PhoneGap Cordova. 
 
